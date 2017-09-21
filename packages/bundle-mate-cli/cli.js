@@ -2,6 +2,10 @@
 
 /* @flow */
 
+/*::
+ import type { Flags } from "./types/flags";
+ */
+
 const meow = require("meow");
 const chalk = require("chalk");
 const run = require("./lib/index");
@@ -43,7 +47,7 @@ const COMMAND_VALIDATION_RULES = {
 const [command, ...input] = cli.input || [];
 const flags = cli.flags || {};
 
-const validateCommand = (command /*: string */, input /* Array<string> */, flags /*: any */) => {
+const validateCommand = (command /*: string */, input /* Array<string> */, flags /*: Flags */) => {
   const validationRules = COMMAND_VALIDATION_RULES[command];
   if (validationRules.input && (!input || !input.length)) {
     return `Command "${command}" expect additional input, use bm --help for more info`;
