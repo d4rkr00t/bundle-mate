@@ -1,0 +1,10 @@
+{
+  "name": "bundle-mate-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Stanislav Sysoev <@d4rkr00t>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.2.0"
+  }
+}

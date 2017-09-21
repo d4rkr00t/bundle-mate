@@ -1,0 +1,16 @@
+{
+  "name": "bundle-mate-cli",
+  "version": "0.0.0",
+  "description": "Bundle Analyzer For Moddern Web",
+  "main": "lib/index.js",
+  "keywords": [
+    "bundle",
+    "analyzer",
+    "bundle-mate",
+    "bundle analyzer",
+    "webpack",
+    "rollup"
+  ],
+  "author": "Stanislav Sysoev <@d4rkr00t>",
+  "license": "MIT"
+}
