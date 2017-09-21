@@ -4,6 +4,7 @@
 
 const meow = require("meow");
 const chalk = require("chalk");
+const run = require("./lib/index");
 
 const cli = meow(
   {
@@ -71,7 +72,5 @@ if (!command) {
     process.exit(1);
   }
 
-  console.log("command: ", command);
-  console.log("input: ", input);
-  console.log("flags: ", flags);
+  run(command, input, flags);
 }
