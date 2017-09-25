@@ -1,0 +1,17 @@
+{
+  "name": "bundle-mate-default-reporter",
+  "version": "0.0.0",
+  "description": "Default Reporter for BundleMate",
+  "main": "lib/index.js",
+  "keywords": [
+    "bundle",
+    "analyzer",
+    "bundle-mate",
+    "bundle analyzer",
+    "webpack",
+    "rollup",
+    "reporter"
+  ],
+  "author": "Stanislav Sysoev <@d4rkr00t>",
+  "license": "MIT"
+}
